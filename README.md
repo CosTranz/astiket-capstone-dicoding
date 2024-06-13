@@ -3,13 +3,20 @@
 ASTIKET adalah aplikasi web yang dirancang untuk pemesanan tiket online di Alaska Park. Aplikasi ini memberikan solusi modern untuk memudahkan pengunjung dalam memesan tiket secara efisien dan cepat.
 
 ## Screenshots
-
+- **Landingpage**
+  ![Landingpage](tampilansebelumlogin.png)
+- **Home**
+  ![Home](tampilansesudahlogin.png)
+- **Browse**
+  ![Browse](halamanbrowse.png)
+  - **Contact**
+  ![Contact](halamancontact.png)
 - **Login Page**
   ![Login Page](login.png)
 - **Dashboard**
   ![Dashboard](dashboardadmin.png)
 - **Pemesanan Tiket**
-  ![Pemesanan Tiket](pemesanantiket.png)
+  ![Pemesanan Tiket](pembayarantiket.png)
 
 ## Fitur
 
