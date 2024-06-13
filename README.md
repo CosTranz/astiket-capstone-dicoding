@@ -32,6 +32,9 @@ https://astiket.000webhostapp.com/
 - Manajemen Pengguna
   - Admin
   - User
+- Masuk Sebagai Admin
+  username  : admin
+  password  : admin123
 
 ## Resource yang Digunakan
 
