@@ -71,7 +71,7 @@ Berikut adalah beberapa resource utama yang digunakan dalam pengembangan ASTIKET
 ### 4. Impor Database
 
 - Buka phpMyAdmin melalui XAMPP Control Panel (klik tombol Admin di samping MySQL).
-- Buat database baru dengan nama `tokodata`.
+- Buat database baru dengan nama `db_astiket`.
 - Impor file `database.sql` ke database `astiket` dari folder proyek.
 
 ### 5. Konfigurasi Koneksi Database
