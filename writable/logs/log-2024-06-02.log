@@ -1,0 +1,1349 @@
+INFO - 2024-06-02 00:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 00:49:50 --> unlink(C:\xampp\htdocs\astiket\writable\debugbar/debugbar_1716449583.947276.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\astiket\\writable\\debugbar/debugbar_1716449583.947276.json): No such file or directory', 'C:\\xampp\\htdocs\\astiket\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\astiket\\writable\\debugbar/debugbar_1716449583.947276.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717289387.648789', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 00:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 00:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-02 01:01:59 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:01:59 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 01:02:50 --> Class "App\Models\GameModel" not found
+in APPPATH\Controllers\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:03:40 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:03:40 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:05:29 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:05:29 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:05:43 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:05:43 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:10:24 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:10:24 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:10:25 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:10:25 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:11:31 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:11:31 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:11:32 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:11:32 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:11:41 --> Class "App\Models\GameModel" not found
+in APPPATH\Controllers\Main.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:12:20 --> Class "App\Models\GameModel" not found
+in APPPATH\Controllers\Main.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:12:42 --> Class "App\Models\GameModel" not found
+in APPPATH\Controllers\Main.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:12:43 --> Class "App\Models\GameModel" not found
+in APPPATH\Controllers\Main.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:12:47 --> Class "App\Models\GameModel" not found
+in APPPATH\Controllers\Main.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-02 01:14:00 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:14:00 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:14:02 --> mysqli_sql_exception: Unknown column 'tb_game.id_game' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:14:02 --> Unknown column 'tb_game.id_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_game`.`id_game`, `tb_game`.`top_up`, `tb_game`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_game` ON `tb_game`.`id_game` = `tb_transaksi`.`id_game`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:14:49 --> mysqli_sql_exception: Unknown column 'tb_place.top_up' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:14:49 --> Unknown column 'tb_place.top_up' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:16:00 --> mysqli_sql_exception: Unknown column 'tb_place.top_up' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:16:00 --> Unknown column 'tb_place.top_up' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:16:01 --> mysqli_sql_exception: Unknown column 'tb_place.top_up' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:16:01 --> Unknown column 'tb_place.top_up' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-02 01:20:27 --> mysqli_sql_exception: Table 'db_astiket.tb_transaksi' doesn't exist in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:20:27 --> Table 'db_astiket.tb_transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:20:28 --> mysqli_sql_exception: Table 'db_astiket.tb_transaksi' doesn't exist in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:20:28 --> Table 'db_astiket.tb_transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:20:29 --> mysqli_sql_exception: Table 'db_astiket.tb_transaksi' doesn't exist in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:20:29 --> Table 'db_astiket.tb_transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:21:30 --> mysqli_sql_exception: Table 'db_astiket.tb_transaksi' doesn't exist in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:21:30 --> Table 'db_astiket.tb_transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:21:31 --> mysqli_sql_exception: Table 'db_astiket.tb_transaksi' doesn't exist in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:21:31 --> Table 'db_astiket.tb_transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 01:22:16 --> mysqli_sql_exception: Table 'db_astiket.tb_transaksi' doesn't exist in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 01:22:16 --> Table 'db_astiket.tb_transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_game`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(25): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 01:22:56 --> Undefined variable $totalUsers
+in APPPATH\Views\v_dashboard.php on line 16.
+ 1 APPPATH\Views\v_dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalUsers', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Dashboard.php(30): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 01:23:01 --> Undefined variable $totalUsers
+in APPPATH\Views\v_dashboard.php on line 16.
+ 1 APPPATH\Views\v_dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalUsers', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Dashboard.php(30): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 01:23:20 --> Undefined variable $totalIncome
+in APPPATH\Views\v_dashboard.php on line 18.
+ 1 APPPATH\Views\v_dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalIncome', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Dashboard.php(30): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 01:23:44 --> Undefined variable $labels
+in APPPATH\Views\v_dashboard.php on line 23.
+ 1 APPPATH\Views\v_dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $labels', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Dashboard.php(30): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:26:24 --> Invalid file: "v_game.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_game.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_game', [], true)
+ 3 APPPATH\Views\layout\navbar.php(129): view('v_game')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 7 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+11 APPPATH\Controllers\Place.php(22): view('layout/template', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Place->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Place))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 01:29:39 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_place.php on line 56.
+ 1 APPPATH\Views\v_place.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\v_place.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\v_place.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_place', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_place')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Place.php(22): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Place->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Place))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 01:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 01:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:24:18 --> Undefined variable $placeDetail
+in APPPATH\Views\gamepages\topup_add.php on line 58.
+ 1 APPPATH\Views\gamepages\topup_add.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $placeDetail', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 02:25:04 --> mysqli_sql_exception: Unknown column 'tb_place.top_up' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Transaksi.php(18): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 02:25:04 --> Unknown column 'tb_place.top_up' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(18): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 02:25:51 --> mysqli_sql_exception: Unknown column 'tb_place.top_up' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Transaksi.php(18): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 02:25:51 --> Unknown column 'tb_place.top_up' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(18): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:26:06 --> Undefined variable $placeDetail
+in APPPATH\Views\gamepages\topup_add.php on line 58.
+ 1 APPPATH\Views\gamepages\topup_add.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $placeDetail', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:27:13 --> Undefined variable $placeDetail
+in APPPATH\Views\gamepages\topup_add.php on line 52.
+ 1 APPPATH\Views\gamepages\topup_add.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $placeDetail', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:27:21 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\gamepages\topup_add.php on line 22.
+ 1 APPPATH\Views\gamepages\topup_add.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:27:41 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\gamepages\topup_add.php on line 65.
+ 1 APPPATH\Views\gamepages\topup_add.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:28:37 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\gamepages\topup_add.php on line 65.
+ 1 APPPATH\Views\gamepages\topup_add.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:28:46 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\gamepages\topup_add.php on line 153.
+ 1 APPPATH\Views\gamepages\topup_add.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php', 153)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(104): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(34): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('ID100')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 02:29:24 --> mysqli_sql_exception: Unknown column 'tb_place.top_up' in 'field list' in C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\astiket\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tran...', 0)
+#1 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tran...')
+#2 C:\xampp\htdocs\astiket\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tran...')
+#3 C:\xampp\htdocs\astiket\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tran...', Array, false)
+#4 C:\xampp\htdocs\astiket\app\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\astiket\app\Controllers\Transaksi.php(18): App\Models\TransaksiModel->getAllDataWithRelation()
+#6 C:\xampp\htdocs\astiket\system\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+#7 C:\xampp\htdocs\astiket\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\astiket\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\astiket\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-02 02:29:24 --> Unknown column 'tb_place.top_up' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_transaksi`.*, `tb_place`.`id_place`, `tb_place`.`top_up`, `tb_place`.`name_place`, `tb_user`.`customer`
+FROM `tb_transaksi`
+JOIN `tb_place` ON `tb_place`.`id_place` = `tb_transaksi`.`id_place`
+JOIN `tb_user` ON `tb_user`.`customer` = `tb_transaksi`.`customer`', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(18): App\Models\TransaksiModel->getAllDataWithRelation()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:55:23 --> unlink(C:\xampp\htdocs\astiket\writable\debugbar/debugbar_1717296394.372490.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\astiket\\writable\\debugbar/debugbar_1717296394.372490.json): No such file or directory', 'C:\\xampp\\htdocs\\astiket\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\astiket\\writable\\debugbar/debugbar_1717296394.372490.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1717296922.133814', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 02:57:50 --> Too few arguments to function App\Controllers\Transaksi::delete(), 0 passed in C:\xampp\htdocs\astiket\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 02:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 02:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 03:12:33 --> Invalid file: "gamepages/loginmain.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('gamepages/loginmain.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/loginmain', [], true)
+ 3 APPPATH\Controllers\User.php(25): view('gamepages/loginmain', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->loginman()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 03:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 03:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-02 03:19:46 --> Invalid file: "mainpages/topup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mainpages/topup.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpages/topup', [], true)
+ 3 APPPATH\Views\mainpages\template.php(103): view('mainpages/topup')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\astiket\\app\\Views\\mainpages\\template.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpages/template', [], true)
+ 7 APPPATH\Controllers\Main.php(61): view('mainpages/template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-02 03:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-02 11:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
