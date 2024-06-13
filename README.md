@@ -51,3 +51,35 @@ Berikut adalah beberapa resource utama yang digunakan dalam pengembangan ASTIKET
 - Git
 - Composser
 
+## Instalasi
+
+### 1. Instal XAMPP
+
+- Unduh XAMPP dari [situs web resmi](https://www.apachefriends.org/index.html).
+- Ikuti instruksi instalasi yang diberikan.
+
+### 2. Start Apache dan MySQL
+
+- Buka XAMPP Control Panel.
+- Klik tombol Start di samping Apache dan MySQL.
+
+### 3. Salin Proyek ke Direktori htdocs
+
+- Salin folder proyek `astiket` ke dalam direktori `htdocs` di direktori instalasi XAMPP. 
+  Contoh: `C:\xampp\htdocs\astiket`.
+
+### 4. Impor Database
+
+- Buka phpMyAdmin melalui XAMPP Control Panel (klik tombol Admin di samping MySQL).
+- Buat database baru dengan nama `tokodata`.
+- Impor file `database.sql` ke database `astiket` dari folder proyek.
+
+### 5. Konfigurasi Koneksi Database
+
+- Buka file `config.php` di dalam folder `astiket`.
+- Sesuaikan konfigurasi database (`$host`, `$username`, `$password`, `$database`) sesuai dengan konfigurasi MySQL Anda.
+
+### 6. Akses Proyek di Browser
+
+- Buka browser dan ketikkan URL berikut: `http://localhost/astiket/main`.
+
