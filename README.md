@@ -17,8 +17,8 @@ https://astiket.000webhostapp.com/
 - **Login Page**
   ![Login Page](login.png)
 - **Register Page**
-  ![Login Page](register.png)
-- **Dashboard**
+  ![Register Page](register.png)
+- **Dashboard Admin**
   ![Dashboard](dashboardadmin.png)
 - **Pemesanan Tiket**
   ![Pemesanan Tiket](pembayarantiket.png)
@@ -33,8 +33,8 @@ https://astiket.000webhostapp.com/
   - Admin
   - User
 - Masuk Sebagai Admin
-  username  : admin
-  password  : admin123
+  - username  : admin
+  - password  : admin123
 
 ## Resource yang Digunakan
 
